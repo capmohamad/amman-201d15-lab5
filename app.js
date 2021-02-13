@@ -64,9 +64,9 @@ function sumAndMultiply(a, b, c) {
   ${c} is ${output2[0]}.`]
   //eslint-disable-line
 }
-// sumAndMultiply(4,7,5);
+sumAndMultiply(4,7,5);
 // Here is the test for sumAndMultiply(); uncomment it to run it
-testSumAndMultiply(4, 7, 5);
+// testSumAndMultiply(4, 7, 5);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -96,8 +96,8 @@ function sumArray(sumArr) {
     total2 = sum(total[0], sumArr[2])
   }
   console.log(total2);
-  return [total2, `${sumArr[0]} , ${sumArr[1]} , ${sumArr[2], ` was passed in as an array of numbers, and  ${total2[0]} is
-their sum }`]
+  return [total2, `${sumArr[0]} , ${sumArr[1]} , ${sumArr[2]},  was passed in as an array of numbers, and  ${total2[0]} is
+their sum} `]
 
 }
 
@@ -118,12 +118,20 @@ testSumArray(testArray);
 // Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // // Write your code here
-function multiplyArray(multArr) 
-  //eslint-disable-line
+let multiplyArray =(5,6,7);
+//   //eslint-disable-line
+
+let output=0;
+let = i;
+function multiplyArray(multArr) {for (let i = 0; i < array.length; i++) {
+  output *= array[i];}
+  return[output,`${multArr[0]}, ${multArr[1], ${multArr[1]}, ${multArr[2]} was passed in an array of Number,and ${output}
+is their sum}`];
+
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
@@ -148,7 +156,7 @@ Test this function by hand in the console to get it working, and when you think 
 
 // function multiplyAnyArray(dynamicArray) {
 //   //eslint-disable-line
-}
+// }
 
 // Here is the test for multiplyArray(); uncomment it to run it
 // testMultiplyAnyArray(testDynamicArray);
